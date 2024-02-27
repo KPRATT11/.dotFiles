@@ -22,17 +22,23 @@ echo $ZSH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
 
+# ALIASES
 alias zcon="code ~/.zshrc"
 alias zsrc="source ~/.zshrc"
 alias cl="clear"
 alias npm='nocorrect npm' 
+alias fcd='cd $(find * -type d  | fzf)'
+alias fcdh='cd ~; cd $(find * -type d  | fzf)'
+alias lgt='lazygit'
+alias ls='eza'
 
 function resudo() {
  echo !!
 }
+
+HISTSIZE=10000000
+SAVEHIST=10000000
 
 # fnm
 export PATH="/Users/keegan.pratt/Library/Application Support/fnm:$PATH"
@@ -45,3 +51,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 alias x86brew='arch -x86_64 /usr/local/homebrew/bin/brew'
+
+#FZF
+source /usr/local/Homebrew/Cellar/fzf/0.46.1/shell/key-bindings.zsh
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
