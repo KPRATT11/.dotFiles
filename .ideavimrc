@@ -1,0 +1,5 @@
+set relativenumber number
+set scrolloff=999
+set ic
+Plug 'machakann/vim-highlightedyank'
+Plug 'justinmk/vim-sneak'
