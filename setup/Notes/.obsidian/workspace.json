@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "6a62d7fc8a7c93f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c4d581ed9d138a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6fc4e44f178ce6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linking note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3ca5c282cbf8ff1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "New note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6d26335af868937",
+    "type": "split",
+    "children": [
+      {
+        "id": "1060bbc37b4a93cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "739fbf8bf6f29fe3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34412c1284ac37ae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "abe6b33378feccf3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "65acb964d7f4e5a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "425eb7845226392c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c3002ece57ee5bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "New note.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "658050ac339e0a8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "New note.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e717354cf48413ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2240a5c79be2f65a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "New note.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b3ca5c282cbf8ff1",
+  "lastOpenFiles": [
+    "Linking note.md",
+    "New note.md",
+    "link.md",
+    "Untitled 1.md",
+    "New note.md",
+    "topic that I should link.md",
+    "Welcome.md"
+  ]
+}

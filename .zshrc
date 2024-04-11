@@ -42,6 +42,7 @@ SAVEHIST=10000000
 
 # fnm
 export PATH="/Users/keegan.pratt/Library/Application Support/fnm:$PATH"
+export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS:$PATH"
 eval "`fnm env`"
 eval "$(fnm env --use-on-cd)"
 
@@ -55,3 +56,6 @@ alias x86brew='arch -x86_64 /usr/local/homebrew/bin/brew'
 #FZF
 source /usr/local/Homebrew/Cellar/fzf/0.46.1/shell/key-bindings.zsh
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+
+export CPPFLAGS="-I$(brew --prefix)/include"
+export LDFLAGS="-L$(brew --prefix)/lib"

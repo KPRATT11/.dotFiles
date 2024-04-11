@@ -1,0 +1,1 @@
+I want to link this to my [[Linking note]]
